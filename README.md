@@ -1,6 +1,6 @@
 git clone
 ```
-
+git clone https://github.com/JunyaHB/electron-vue-app.git
 ```
 
 Vue CLI 3のインストール
