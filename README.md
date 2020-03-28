@@ -1,24 +1,20 @@
-# my-app
-
-## Project setup
-```
-yarn install
+# git clone
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
 ```
 
-### Compiles and minifies for production
+# Vue CLI 3のインストール
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+npm install -g @vue/cli
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Vue CLI Plugin Electron Builderをインストール
+```
+cd electron-vue-app
+vue add electron-builder
+```
+
+#アプリの起動
+```
+npm run electron:serve
+```
